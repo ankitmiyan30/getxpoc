@@ -1,0 +1,99 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2022 The New York Times Company. All Rights Reserved.",
+    "num_results": 2,
+    "results": [
+      {
+        "uri": "nyt://article/79808d50-9271-5eee-abde-4f125c172853",
+        "url": "https://www.nytimes.com/2021/12/31/arts/television/betty-white-dead.html",
+        "id": 100000006684002,
+        "asset_id": 100000006684002,
+        "source": "New York Times",
+        "published_date": "2021-12-31",
+        "updated": "2022-01-01 08:38:06",
+        "section": "Arts",
+        "subsection": "Television",
+        "nytdsection": "arts",
+        "adx_keywords": "Deaths (Obituaries);Actors and Actresses;Television;White, Betty",
+        "column": null,
+        "byline": "By Richard Severo and Peter Keepnews",
+        "type": "Article",
+        "title": "Betty White, a Television Golden Girl From the Start, Is Dead at 99",
+        "abstract": "Among the many highlights of a career that began in 1949 were star turns on The Mary Tyler Moore Show in the 1970s and Saturday Night Live in 2010.",
+        "des_facet": [
+          "Deaths (Obituaries)",
+          "Actors and Actresses",
+          "Television"
+        ],
+        "org_facet": [],
+        "per_facet": [
+          "White, Betty"
+        ],
+        "geo_facet": [],
+        "media": [],
+        "eta_id": 0
+      },
+      {
+        "uri": "nyt://article/275afb2c-5b5b-5867-b6cf-3fb7a154302a",
+        "url": "https://www.nytimes.com/2021/12/30/us/pennsylvania-trooper-jay-splain-investigation.html",
+        "id": 100000008130512,
+        "asset_id": 100000008130512,
+        "source": "New York Times",
+        "published_date": "2021-12-30",
+        "updated": "2021-12-30 10:47:52",
+        "section": "U.S.",
+        "subsection": "",
+        "nytdsection": "u.s.",
+        "adx_keywords": "Police Brutality, Misconduct and Shootings;Deaths (Fatalities);Conflicts of Interest;Splain, Jay;Pennsylvania State Police;Pennsylvania",
+        "column": null,
+        "byline": "By Kim Barker, Steve Eder and David D. Kirkpatrick",
+        "type": "Article",
+        "title": "After 4 Killings, ‘Officer of the Year’ Is Still on the Job",
+        "abstract": "A Pennsylvania state trooper was returned to duty following three investigations by his own agency. A fourth inquiry is underway.",
+        "des_facet": [
+          "Police Brutality, Misconduct and Shootings",
+          "Deaths (Fatalities)",
+          "Conflicts of Interest"
+        ],
+        "org_facet": [
+          "Pennsylvania State Police"
+        ],
+        "per_facet": [
+          "Splain, Jay"
+        ],
+        "geo_facet": [
+          "Pennsylvania"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Max-o-matic\n",
+            "approved_for_syndication": 1,
+            "media-metadata": [
+              {
+                "url": "https://static01.nyt.com/images/2021/12/30/multimedia/30penntrooper-illo/30penntrooper-illo-thumbStandard.jpg",
+                "format": "Standard Thumbnail",
+                "height": 75,
+                "width": 75
+              },
+              {
+                "url": "https://static01.nyt.com/images/2021/12/30/multimedia/30penntrooper-illo/30penntrooper-illo-mediumThreeByTwo210.jpg",
+                "format": "mediumThreeByTwo210",
+                "height": 140,
+                "width": 210
+              },
+              {
+                "url": "https://static01.nyt.com/images/2021/12/30/multimedia/30penntrooper-illo/30penntrooper-illo-mediumThreeByTwo440.jpg",
+                "format": "mediumThreeByTwo440",
+                "height": 293,
+                "width": 440
+              }
+            ]
+          }
+        ],
+        "eta_id": 0
+      }
+    ]
+  }
