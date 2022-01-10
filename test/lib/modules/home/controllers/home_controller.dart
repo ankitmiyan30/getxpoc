@@ -14,18 +14,18 @@ class HomeController extends GetxController {
     getTestList();
   }
 
-  Future<String>? getTestList() {
-    // progressBar.value = false;
-    // _apiProvider.httpGetCall(BASE_URL + API_KEY).then((value) {
-    //   if (value.isOk) {
-    //     var data = ArticleData.fromJson(value.body);
-    //     articlsList.value = data;
-    //     progressBar.value = true;
-    //   }
-    //   if (value.statusCode == 400) {
-    //     Get.snackbar("Error", "Something wen wrong");
-    //   }
-    // });
+  getTestList() {
+    progressBar.value = false;
+    _apiProvider.httpGetCall(BASE_URL + API_KEY).then((value) {
+      if (value.isOk) {
+        var data = ArticleData.fromJson(value.body);
+        articlsList.value = data;
+        progressBar.value = true;
+      }
+      if (value.statusCode == 400) {
+        Get.snackbar("Error", "Something wen wrong");
+      }
+    });
   }
 
   @override
