@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:expansiontile/components/articles_list_tile_widget.dart';
 import 'package:expansiontile/utils/app_strings.dart';
 import 'package:flutter/material.dart';
@@ -29,9 +31,40 @@ class HomeView extends GetView<HomeController> {
         child: Obx(
           () => controller.progressBar.isTrue
               ? Container(
+                  
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
+                      SizedBox(
+                        height: 8.sp,
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 16),
+                        child: Text(
+                          "Accessing battery level using method channel",
+                          style: TextStyle(
+                            fontWeight: FontWeight.w700,
+                            fontSize: 18,
+                            color: Colors.primaries[
+                                Random().nextInt(Colors.primaries.length)],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        height: 8.sp,
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 16),
+                        child: Text(
+                          controller.batteryLevel.value,
+                          style: TextStyle(
+                            fontWeight: FontWeight.w700,
+                            fontSize: 18,
+                            color: Colors.primaries[
+                                Random().nextInt(Colors.primaries.length)],
+                          ),
+                        ),
+                      ),
                       SizedBox(
                         height: 8.sp,
                       ),
